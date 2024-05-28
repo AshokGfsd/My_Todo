@@ -7,6 +7,8 @@ const Add = ({ onChange, name, desc, state, ind }) => {
 
   const Add = () => {
     onChange([Name, Desc, false]);
+    setName("")
+    setDesc("")
   };
   const Edit = () => {
     onChange([Name, Desc, false], ind);
